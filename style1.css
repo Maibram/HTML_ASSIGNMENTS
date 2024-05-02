@@ -1,0 +1,10 @@
+p{
+    border: 0.2em solid red;
+    border-collapse: collapse;
+}
+.odd{
+    background-color: aqua;
+}
+.even{
+    background-color: blueviolet;
+}
