@@ -1,0 +1,37 @@
+h1,legend{
+    text-align: center;
+}
+body{
+    background-color:aliceblue;
+}
+form{
+    margin: auto;
+    width: min(600px, 80%);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-image: url('https://images.unsplash.com/photo-1619279302118-43033660826a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: navy;
+}
+div{
+    display: flex;
+    background-color: aliceblue;
+}
+input[type="text"],input[type="email"],input[type="tel"],textarea,select,#dob{
+    width:90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
