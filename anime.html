@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes changecolor{
+            0%{ background-color: blue; 
+                left: 10px;
+                top: 10px;}
+            20%{ background-color: black; 
+                left: 400px;
+                top: 10px;
+            }
+            40%{ background-color: yellow; 
+                left: 400px;
+                top: 300px;
+            }
+            60%{ background-color: red; 
+                left: 10px;
+                top: 300px;
+            }
+            80%{ background-color: pink; 
+                left: 10px;
+                top: 10px;
+            }
+            100%{ background-color: orange; 
+                left: 300px;
+                top: 300px;
+            }
+        }
+            
+        div{
+            width: 100px;
+            height: 100px;
+            left: 10px;
+            position: relative;
+            background-color: blue;
+            border-radius: 50%;
+            animation-name: changecolor;
+            animation-duration: 5s; 
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
