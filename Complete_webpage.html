@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete  Webpage</title>
+    <style>
+        @keyframes changeimg{
+            0%{background-image: url("https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190308191743/Andro-Village.jpg");}
+            10%{background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/230210161917-01-japan-never-traveler-culture-tokyo.jpg?c=original");}
+            20%{background-image: url("https://www.clubmahindra.com/blog/media/section_images/placestovi-ebdfa4492976aec.webp");}
+            30%{background-image: url("https://www.nationsonline.org/gallery/Japan/Churei-to-pagoda-and-Mount-Fuji.jpg");}
+            40%{background-image: url("https://img.veenaworld.com/wp-content/uploads/2022/05/Top-7-Festivals-in-Manipur-That-You-Cant-Miss.jpg");}
+        }
+        #headdiv{
+            display: flex;
+        }
+        #logoimg{
+            height: 28px;
+            width: 10ps;
+            border: 2px solid brown;
+            border-radius: 50%;
+        }
+        label{
+            margin-left: 20px;
+            margin-top: 5px;
+            font-family: cursive;
+        }
+        nav{
+           margin-left: 1030px; 
+        }
+        header{
+            background-color: lightblue;
+        }
+        h1{
+            font-family: cursive;
+            text-align: center;
+            color: #7e37a1;
+        }
+        #homediv{
+            background-image: url("https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20190308191743/Andro-Village.jpg");
+            height: 400px;
+            width: 1500px;
+            background-repeat: no-repeat;
+            background-position:50%;
+            animation-name: changeimg;
+            animation-duration: 25s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+
+        }
+        .teamphoto{
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 50% 50% 0% 0%;
+        }
+        legend{
+            text-align: center;
+        }
+        .inputform{
+            margin-left: 220px;
+            position: relative;
+            width: 200px;
+        }
+        span{
+            margin-left: 1000px;
+        }
+        .socialmedia{
+            height: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="headdiv">
+        <img src="https://img.freepik.com/premium-vector/travel-logo-destination-logo_103148-50.jpg" id="logoimg">
+        <label>Travel Destination Guide</label>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#team">Our Team</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+        </div>
+    </header>
+    <section id="home">
+        <h1>Our Works 1</h1>
+        <div id="homediv"></div>
+    </section>
+    <section id="team">
+        <table>
+            <tr>
+                <td><img src= "https://th.bing.com/th/id/OIP.pFqcVa-wLxxMp2ytf2ZhzgHaFY?w=217&h=180&c=7&r=0&o=5&pid=1.7" class= "teamphoto"></td>
+                <td><img src= "https://t4.ftcdn.net/jpg/00/44/45/93/500_F_44459395_A7c04HVWZ48kPoCP9KmOxRdwEJ8WECfF.jpg" class= "teamphoto"></td>
+                <td><img src= "https://th.bing.com/th/id/OIP.HeBY1ix8lnp4nLsAfTHgEQHaFc?w=236&h=180&c=7&r=0&o=5&pid=1.7" class= "teamphoto"></td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus commodi obcaecati consectetur aperiam! Provident dolor aliquam consectetur dolore veritatis magni molestias, soluta omnis. Facere corporis debitis itaque ducimus fugit?</td>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quaerat accusantium nesciunt aperiam animi id pariatur eos. Iusto error architecto, omnis nihil earum quas ut beatae, possimus mollitia eligendi ea?</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta dolore eos hic amet nisi! Quasi voluptas optio assumenda excepturi quos. Esse consequuntur omnis ipsum ab quam quis dolor minus?</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <form>
+        <fieldset>
+        <legend>Contact Us</legend>
+        <br>
+        <label for="name">Name: </label>
+        <input type="text" class="inputform" required>
+        <br>
+        <label for="email">Email: </label>
+            <input type="email" class="inputform"  required>
+            <br>
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <br>
+            <textarea cols="30" rows="10" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </fieldset>
+    </section>
+    <footer>
+        <div id="footerdiv">
+            Developed By <b>@Bidyachandra Maibram</b>
+            <span>
+                <a href="https://www.facebook.com">
+                    <img src="https://th.bing.com/th/id/OIP.55DCXbXlKDgEBoZhKxpzLAHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7" class="socialmedia">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="https://th.bing.com/th/id/OIP.XgT9d552B6R9C60Ul2yqkAHaHa?w=192&h=192&c=7&r=0&o=5&pid=1.7" class="socialmedia">
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="https://th.bing.com/th/id/OIP.-2yiSRFxDGzINV5OGldPwgHaFH?w=223&h=180&c=7&r=0&o=5&pid=1.7" class="socialmedia">
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
